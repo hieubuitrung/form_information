@@ -1,0 +1,131 @@
+
+        /* chung */
+        .content-shared-box {
+            padding: 8px 4px;
+            margin-bottom: 8px;
+            border: 1px solid #797979;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: rgb(235, 235, 235);
+            color: rgb(78, 78, 78);
+        }
+
+        .content-shared-submit {
+            margin: 4px 0px 8px;
+            font-size: 18px;
+            color: #544a4a;
+        }
+
+        /**/
+        body {
+            background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+        }
+        .main {
+            min-width: 400px;
+            max-width: 450px;
+            margin: 100px auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* bóng đổ */
+            background-color: rgba(163, 143, 143, 0.3);
+            padding: 16px;
+            border-radius: 10px;
+        }
+
+        .header > h2 {
+            font-size: 40px;
+            margin: 8px 0px;
+        }
+
+
+        .header > p {
+            margin-top: 4px;
+            opacity: 0.7;
+        }
+
+        .content .content-name {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-name input {
+            width: 45%;
+        }
+
+
+        .content .content-input {
+            width: 97.7%;
+        }
+
+
+        .content-birdth {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .conten-shared-birdth {
+            width: 30%;
+            font-size: 16px;
+            padding: 4px 8px;
+            border-radius: 5px;
+            background-color: rgb(235, 235, 235);
+            color: rgb(92, 92, 92);
+            border: 1px solid #ccc;
+            margin-bottom: 8px;
+        }
+
+        .content-gender {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .content-gender div {
+            width: 26%;
+            font-size: 16px;
+            padding: 4px 8px;
+            border-radius: 5px;
+            background-color: rgb(235, 235, 235);
+            color: rgb(92, 92, 92);
+            border: 1px solid #ccc;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+
+        .content-gender p{
+            display: inline-block;
+            margin: 1px 50px 1px 5px;
+        }
+
+
+
+
+        .footer input {
+            padding: 7px 22px;
+            font-size: 18px;
+            margin-top: 12px;
+            border: 2px solid #ccc;
+            color: #fff;
+            font-weight: 600;
+            background-color: #00a400;
+            border-radius: 5px;
+        }
+
+        .footer input:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+
+        .footer a {
+            float: right;
+            padding: 12px;
+            text-decoration: none; /* bỏ gạch chân */
+            margin-top: 12px; 
+            color: blue;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            opacity: 0.8;
+        }
